@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>3D solar system</title>
+  </head>
+
+  <body>
+    <div
+      id="control-panel"
+      style="
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: transparent;
+        padding: 10px;
+        color: white;
+        z-index: 1;
+        max-width: 250px;
+      "
+    >
+      <h3 class="SpeedControlBtn" style="cursor: pointer">Speed Control</h3>
+      <div class="SpeedBoxLabels" style="display: none">
+        <label 
+        style="margin-top: 20px;"
+          >Mercury:
+          <input
+            type="range"
+            min="0"
+            max="5"
+            step="0.1"
+            value="2"
+            id="mercurySlider" /></label
+        ><br />
+        <label
+          >Venus:
+          <input
+            type="range"
+            min="0"
+            max="5"
+            step="0.1"
+            value="1.5"
+            id="venusSlider" /></label
+        ><br />
+        <label
+          >Earth:
+          <input
+            type="range"
+            min="0"
+            max="5"
+            step="0.1"
+            value="1"
+            id="earthSlider" /></label
+        ><br />
+        <label
+          >Mars:
+          <input
+            type="range"
+            min="0"
+            max="5"
+            step="0.1"
+            value="0.8"
+            id="marsSlider" /></label
+        ><br />
+        <label
+          >Jupiter:
+          <input
+            type="range"
+            min="0"
+            max="5"
+            step="0.1"
+            value="0.7"
+            id="jupiterSlider" /></label
+        ><br />
+        <label
+          >Saturn:
+          <input
+            type="range"
+            min="0"
+            max="5"
+            step="0.1"
+            value="0.6"
+            id="saturnSlider" /></label
+        ><br />
+        <label
+          >Uranus:
+          <input
+            type="range"
+            min="0"
+            max="5"
+            step="0.1"
+            value="0.5"
+            id="uranusSlider" /></label
+        ><br />
+        <label
+          >Neptune:
+          <input
+            type="range"
+            min="0"
+            max="5"
+            step="0.1"
+            value="0.4"
+            id="neptuneSlider"
+        /></label>
+      </div>
+    </div>
+    <button
+      id="toggleAnimation"
+      style="
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 2;
+        padding: 2px;
+        cursor: pointer;
+        border: 0;
+        background: transparent;
+        padding: 0;
+        margin: 20px;
+        color: white;
+        font-weight: bolder;
+      "
+    >
+      Pause
+    </button>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

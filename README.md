@@ -1,3 +1,7 @@
+# Hosting 
+
+[https://solar-system-ten-chi.vercel.app/]
+
 # 🌌 3D Solar System Simulation
 
 A 3D interactive simulation of the solar system built using Three.js, HTML, CSS, and JavaScript. It features realistic planetary textures, orbital animations, user-controlled speed sliders for each planet, a skybox, stars, and orbit rings.
